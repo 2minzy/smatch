@@ -306,7 +306,6 @@ img {
 .accordion {
     background: #333;
     width: 100%;
-    min-width: 800px;
     list-style-type: none;
     overflow: hidden;
     height: 150px;
@@ -444,7 +443,7 @@ content: '\f200'
     .accordion {
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 100%;
         height: 360px;
     }
     
@@ -499,10 +498,9 @@ content: '\f200'
     .accordion {
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 100%;
         height: 300px;
-
-    }
+   }
     
     .tab .content {
         background: white;
